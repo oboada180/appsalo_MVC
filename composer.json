@@ -1,0 +1,22 @@
+{
+    "name": "oscarboada/appsalon",
+    "description": "proyecto PHP8 MVC SQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Clases\\": "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oscar Boada"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
